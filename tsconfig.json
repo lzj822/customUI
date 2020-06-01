@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "./bundle",
+        "target": "es5",
+        "allowJs": true, // 允许js语法再ts环境运行
+    },
+    "exclude": [
+        "./node_modules"  
+    ]
+}
