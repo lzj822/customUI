@@ -1,3 +1,7 @@
-import "./index.scss";
+// import "./index.scss";
 
-console.log('this is app.ts');
+const sum = (a: number, b: number): number => {
+    return a + b;
+}
+
+export default sum;

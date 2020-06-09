@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "es6",
         "outDir": "./bundle",
         "target": "es5",
-        "allowJs": true, // 允许js语法再ts环境运行
+        "allowJs": true,
+        "esModuleInterop": true,
     },
+
     "exclude": [
-        "./node_modules"  
+        "./node_modules"
     ]
 }
